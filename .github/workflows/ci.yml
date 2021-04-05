@@ -40,8 +40,8 @@ jobs:
       run: yarn test
       continue-on-error: true
 
-    - name: Print coverage file
-      run: cat coverage/coverage.json
+    - name: Coverage
+      run: yarn coverage
 
     - name: Upload coverage to Codecov
       env:

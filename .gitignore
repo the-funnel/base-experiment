@@ -18,6 +18,8 @@ public/css/main.css
 
 # Coverage reports
 coverage
+.nyc_output
+coverage.lcov
 
 # API keys and secrets
 .env

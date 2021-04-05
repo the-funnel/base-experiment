@@ -1,4 +1,4 @@
-import { add, substract, multiply } from './math';
+import { add, substract, multiply } from '../src/math';
 import * as chai from 'chai';
 
 const expect = chai.expect;
@@ -15,7 +15,7 @@ describe('My math library', () => {
 
     //todo: Fix this unit test.
     it('should be able to multiply things correctly', () => {
-        expect(multiply(5, 4)).to.equal(10);
+        expect(multiply(5, 4)).to.equal(20);
     });
 
 });
