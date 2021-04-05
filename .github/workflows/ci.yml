@@ -40,6 +40,9 @@ jobs:
       run: yarn test
       continue-on-error: true
 
+    - name: Print coverage file
+      run: cat coverage/coverage.json
+
     - name: Upload coverage to Codecov
       env:
         CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
