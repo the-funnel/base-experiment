@@ -1,0 +1,34 @@
+{
+  "name": "metabot-experiment",
+  "version": "1.0.0",
+  "description": "library used on the metabot experiment.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha --reporter spec --require ts-node/register src/**/*.test.ts"
+  },
+  "files": [
+    "/dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EricRibeiro/metabot-experiment.git"
+  },
+  "author": "Eric Ribeiro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EricRibeiro/metabot-experiment/issues"
+  },
+  "homepage": "https://github.com/EricRibeiro/metabot-experiment#readme",
+  "dependencies": {
+    "typescript": "^4.2.3"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.16",
+    "@types/mocha": "^8.2.2",
+    "chai": "^4.3.4",
+    "mocha": "^8.3.2",
+    "ts-node": "^9.1.1"
+  }
+}
