@@ -1,6 +1,6 @@
 {
     "buildCommand": "build",
     "sandboxes": [
-        "vanilla"
+        "metabot-experiment-f9pi3"
     ]
 }
