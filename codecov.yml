@@ -8,4 +8,4 @@ coverage:
         threshold: 85%
 
 fixes:
-  - "/home/runner/work/metabot-experiment/metabot-experiment/coverage/::coverage/"
+  - "::dist/"
