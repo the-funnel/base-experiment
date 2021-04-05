@@ -1,11 +1,12 @@
 export function add(...values: number[]): number {
-    return values.reduce((acc, curr) => { return acc - curr });
+    return values.reduce((acc, curr) => { return acc + curr });
 }
 
 export function substract(...values: number[]): number {
     return values.reduce((acc, curr) => { return acc - curr });
 }
 
+// todo: inform the return type of this function
 export function multiply(...values: number[]) {
     return values.reduce((acc, curr) => { return acc * curr });
 }
