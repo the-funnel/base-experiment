@@ -1,6 +1,6 @@
 {
   "name": "metabot-experiment",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "library used on the metabot experiment.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
