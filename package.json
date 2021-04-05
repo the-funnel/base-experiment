@@ -6,7 +6,8 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "test": "mocha --reporter spec --require ts-node/register src/**/*.test.ts"
+    "test": "istanbul cover mocha dist/*.test.js && codecov -F istanbul_mocha",
+    "test:ts": "mocha --reporter spec --require ts-node/register src/**/*.test.ts"
   },
   "files": [
     "/dist"
@@ -28,6 +29,8 @@
     "@types/chai": "^4.2.16",
     "@types/mocha": "^8.2.2",
     "chai": "^4.3.4",
+    "codecov": "^3.8.1",
+    "istanbul": "^0.4.5",
     "mocha": "^8.3.2",
     "ts-node": "^9.1.1"
   }
