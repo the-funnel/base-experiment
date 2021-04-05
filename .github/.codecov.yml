@@ -3,4 +3,4 @@ codecov:
   max_report_age: off
 
 fixes:
-  - "home/runner/work/metabot-experiment/metabot-experiment/dist/::dist/"
+  - "home/runner/work/metabot-experiment/metabot-experiment/::"
