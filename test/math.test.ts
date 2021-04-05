@@ -13,9 +13,8 @@ describe('My math library', () => {
         expect(substract(20, 12)).to.equal(8);
     });
 
-    //todo: Fix this unit test.
     it('should be able to multiply things correctly', () => {
         expect(multiply(5, 4)).to.equal(20);
     });
-
+    
 });
